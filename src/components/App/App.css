@@ -1,0 +1,6 @@
+@import url(../../vendor/reset.css);
+@import url(../../vendor/fonts/fonts.css);
+
+.page {
+  font-family: 'DM Sans', 'Arial', sans-serif;
+}

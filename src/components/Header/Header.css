@@ -1,0 +1,56 @@
+:root {
+  --main-font-color: #fff;
+}
+
+.header {
+  background: rgb(23, 23, 24);
+  color: var(--main-font-color);
+}
+
+.header__nav {
+  padding: 0 115px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(38, 41, 45);
+}
+
+.header__logo {
+  font-size: 24px;
+  color: var(--main-font-color);
+}
+
+.header__logo strong {
+  font-weight: 700;
+}
+
+.header__link-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.header__link {
+  color: var(--main-font-color);
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.header__link_active {
+  position: relative;
+}
+
+.header__link_active::before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 100%;
+  top: 100%;
+  background-color: var(--main-font-color);
+  text-decoration: underline;
+}

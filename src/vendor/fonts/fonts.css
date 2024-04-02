@@ -1,0 +1,41 @@
+@font-face {
+  src: url(./DMSans-Regular.ttf) format('truetype');
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(./DMSans-Medium.ttf) format('truetype');
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  src: url(./DMSans-Bold.ttf) format('truetype');
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url(./Poppins-Regular.ttf) format('truetype');
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(./Poppins-Medium.ttf) format('truetype');
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  src: url(./Poppins-Bold.ttf) format('truetype');
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+}

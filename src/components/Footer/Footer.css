@@ -1,0 +1,14 @@
+.footer {
+  height: 50px;
+  background: rgb(23, 23, 24);
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer__link {
+  color: #fff;
+}
